@@ -1,0 +1,616 @@
+.icon {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* ================================================================================
+Example showing how to change the color/size of the icons:
+.hgs-name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works because "fill" was set to "currentColor"
+}
+================================================================================ */
+
+.hgs-wai-tap {
+	width: 0.5em;
+}
+#hgs-wai-tap .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-tap .path2, #hgs-wai-tap .path3, #hgs-wai-tap .path4 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-panup {
+	width: 0.486328125em;
+}
+#hgs-wai-panup .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-panup .path2, #hgs-wai-panup .path3, #hgs-wai-panup .path4, #hgs-wai-panup .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-pandown {
+	width: 0.486328125em;
+}
+#hgs-wai-pandown .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-pandown .path2, #hgs-wai-pandown .path3, #hgs-wai-pandown .path4, #hgs-wai-pandown .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-pany {
+	width: 0.486328125em;
+}
+#hgs-wai-pany .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-pany .path2, #hgs-wai-pany .path3, #hgs-wai-pany .path4, #hgs-wai-pany .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-panxy {
+	width: 0.486328125em;
+}
+#hgs-wai-panxy .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-panxy .path2, #hgs-wai-panxy .path3, #hgs-wai-panxy .path4, #hgs-wai-panxy .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-panleft {
+	width: 0.486328125em;
+}
+#hgs-wai-panleft .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-panleft .path2, #hgs-wai-panleft .path3, #hgs-wai-panleft .path4, #hgs-wai-panleft .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-panright {
+	width: 0.486328125em;
+}
+#hgs-wai-panright .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-panright .path2, #hgs-wai-panright .path3, #hgs-wai-panright .path4, #hgs-wai-panright .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-panx {
+	width: 0.486328125em;
+}
+#hgs-wai-panx .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-panx .path2, #hgs-wai-panx .path3, #hgs-wai-panx .path4, #hgs-wai-panx .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-doubletap {
+	width: 0.486328125em;
+}
+#hgs-wai-doubletap .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-doubletap .path2, #hgs-wai-doubletap .path3, #hgs-wai-doubletap .path4, #hgs-wai-doubletap .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-longpress {
+	width: 0.486328125em;
+}
+#hgs-wai-longpress .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-longpress .path2, #hgs-wai-longpress .path3, #hgs-wai-longpress .path4, #hgs-wai-longpress .path5 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-pinchin {
+	width: 0.72265625em;
+}
+#hgs-wai-pinchin .path1, #hgs-wai-pinchin .path2, #hgs-wai-pinchin .path4, #hgs-wai-pinchin .path5, #hgs-wai-pinchin .path6, #hgs-wai-pinchin .path7, #hgs-wai-pinchin .path8 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-pinchin .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-pinchout {
+	width: 0.72265625em;
+}
+#hgs-wai-pinchout .path1, #hgs-wai-pinchout .path2, #hgs-wai-pinchout .path4, #hgs-wai-pinchout .path5, #hgs-wai-pinchout .path6, #hgs-wai-pinchout .path7, #hgs-wai-pinchout .path8 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-pinchout .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-rotate {
+	width: 0.72265625em;
+}
+#hgs-wai-rotate .path1, #hgs-wai-rotate .path2, #hgs-wai-rotate .path4, #hgs-wai-rotate .path5, #hgs-wai-rotate .path6, #hgs-wai-rotate .path7, #hgs-wai-rotate .path8 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-rotate .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-panup {
+	width: 0.5em;
+}
+#hgs-wai-2f-panup .path1, #hgs-wai-2f-panup .path2, #hgs-wai-2f-panup .path4, #hgs-wai-2f-panup .path5, #hgs-wai-2f-panup .path6, #hgs-wai-2f-panup .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-panup .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-pandown {
+	width: 0.5em;
+}
+#hgs-wai-2f-pandown .path1, #hgs-wai-2f-pandown .path2, #hgs-wai-2f-pandown .path4, #hgs-wai-2f-pandown .path5, #hgs-wai-2f-pandown .path6, #hgs-wai-2f-pandown .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-pandown .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-pany {
+	width: 0.5em;
+}
+#hgs-wai-2f-pany .path1, #hgs-wai-2f-pany .path2, #hgs-wai-2f-pany .path4, #hgs-wai-2f-pany .path5, #hgs-wai-2f-pany .path6, #hgs-wai-2f-pany .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-pany .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-panxy {
+	width: 0.5em;
+}
+#hgs-wai-2f-panxy .path1, #hgs-wai-2f-panxy .path2, #hgs-wai-2f-panxy .path4, #hgs-wai-2f-panxy .path5, #hgs-wai-2f-panxy .path6, #hgs-wai-2f-panxy .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-panxy .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-panright {
+	width: 0.5em;
+}
+#hgs-wai-2f-panright .path1, #hgs-wai-2f-panright .path2, #hgs-wai-2f-panright .path4, #hgs-wai-2f-panright .path5, #hgs-wai-2f-panright .path6, #hgs-wai-2f-panright .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-panright .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-panleft {
+	width: 0.5em;
+}
+#hgs-wai-2f-panleft .path1, #hgs-wai-2f-panleft .path2, #hgs-wai-2f-panleft .path4, #hgs-wai-2f-panleft .path5, #hgs-wai-2f-panleft .path6, #hgs-wai-2f-panleft .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-panleft .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-panx {
+	width: 0.5em;
+}
+#hgs-wai-2f-panx .path1, #hgs-wai-2f-panx .path2, #hgs-wai-2f-panx .path4, #hgs-wai-2f-panx .path5, #hgs-wai-2f-panx .path6, #hgs-wai-2f-panx .path7 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-2f-panx .path3 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-2f-tap {
+	width: 0.513671875em;
+}
+#hgs-wai-2f-tap .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-2f-tap .path2, #hgs-wai-2f-tap .path3, #hgs-wai-2f-tap .path4, #hgs-wai-2f-tap .path5, #hgs-wai-2f-tap .path6 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-2f-doubletap {
+	width: 0.5263671875em;
+}
+#hgs-wai-2f-doubletap .path1 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-2f-doubletap .path2, #hgs-wai-2f-doubletap .path3, #hgs-wai-2f-doubletap .path4, #hgs-wai-2f-doubletap .path5, #hgs-wai-2f-doubletap .path6, #hgs-wai-2f-doubletap .path7, #hgs-wai-2f-doubletap .path8 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-3f-panup {
+	width: 0.5em;
+}
+#hgs-wai-3f-panup .path1, #hgs-wai-3f-panup .path2, #hgs-wai-3f-panup .path3, #hgs-wai-3f-panup .path5, #hgs-wai-3f-panup .path6, #hgs-wai-3f-panup .path7, #hgs-wai-3f-panup .path8, #hgs-wai-3f-panup .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-panup .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-pandown {
+	width: 0.5em;
+}
+#hgs-wai-3f-pandown .path1, #hgs-wai-3f-pandown .path2, #hgs-wai-3f-pandown .path3, #hgs-wai-3f-pandown .path5, #hgs-wai-3f-pandown .path6, #hgs-wai-3f-pandown .path7, #hgs-wai-3f-pandown .path8, #hgs-wai-3f-pandown .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-pandown .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-pany {
+	width: 0.5em;
+}
+#hgs-wai-3f-pany .path1, #hgs-wai-3f-pany .path2, #hgs-wai-3f-pany .path3, #hgs-wai-3f-pany .path5, #hgs-wai-3f-pany .path6, #hgs-wai-3f-pany .path7, #hgs-wai-3f-pany .path8, #hgs-wai-3f-pany .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-pany .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-panxy {
+	width: 0.5em;
+}
+#hgs-wai-3f-panxy .path1, #hgs-wai-3f-panxy .path2, #hgs-wai-3f-panxy .path3, #hgs-wai-3f-panxy .path5, #hgs-wai-3f-panxy .path6, #hgs-wai-3f-panxy .path7, #hgs-wai-3f-panxy .path8, #hgs-wai-3f-panxy .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-panxy .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-panright {
+	width: 0.5em;
+}
+#hgs-wai-3f-panright .path1, #hgs-wai-3f-panright .path2, #hgs-wai-3f-panright .path3, #hgs-wai-3f-panright .path5, #hgs-wai-3f-panright .path6, #hgs-wai-3f-panright .path7, #hgs-wai-3f-panright .path8, #hgs-wai-3f-panright .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-panright .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-panleft {
+	width: 0.5em;
+}
+#hgs-wai-3f-panleft .path1, #hgs-wai-3f-panleft .path2, #hgs-wai-3f-panleft .path3, #hgs-wai-3f-panleft .path5, #hgs-wai-3f-panleft .path6, #hgs-wai-3f-panleft .path7, #hgs-wai-3f-panleft .path8, #hgs-wai-3f-panleft .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-panleft .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-3f-panx {
+	width: 0.5em;
+}
+#hgs-wai-3f-panx .path1, #hgs-wai-3f-panx .path2, #hgs-wai-3f-panx .path3, #hgs-wai-3f-panx .path5, #hgs-wai-3f-panx .path6, #hgs-wai-3f-panx .path7, #hgs-wai-3f-panx .path8, #hgs-wai-3f-panx .path9 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-3f-panx .path4 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-panup {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-panup .path1, #hgs-wai-4f-panup .path2, #hgs-wai-4f-panup .path3, #hgs-wai-4f-panup .path4, #hgs-wai-4f-panup .path6, #hgs-wai-4f-panup .path7, #hgs-wai-4f-panup .path8, #hgs-wai-4f-panup .path9, #hgs-wai-4f-panup .path10, #hgs-wai-4f-panup .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-panup .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-pandown {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-pandown .path1, #hgs-wai-4f-pandown .path2, #hgs-wai-4f-pandown .path3, #hgs-wai-4f-pandown .path4, #hgs-wai-4f-pandown .path6, #hgs-wai-4f-pandown .path7, #hgs-wai-4f-pandown .path8, #hgs-wai-4f-pandown .path9, #hgs-wai-4f-pandown .path10, #hgs-wai-4f-pandown .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-pandown .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-pany {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-pany .path1, #hgs-wai-4f-pany .path2, #hgs-wai-4f-pany .path3, #hgs-wai-4f-pany .path4, #hgs-wai-4f-pany .path6, #hgs-wai-4f-pany .path7, #hgs-wai-4f-pany .path8, #hgs-wai-4f-pany .path9, #hgs-wai-4f-pany .path10, #hgs-wai-4f-pany .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-pany .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-panxy {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-panxy .path1, #hgs-wai-4f-panxy .path2, #hgs-wai-4f-panxy .path3, #hgs-wai-4f-panxy .path4, #hgs-wai-4f-panxy .path6, #hgs-wai-4f-panxy .path7, #hgs-wai-4f-panxy .path8, #hgs-wai-4f-panxy .path9, #hgs-wai-4f-panxy .path10, #hgs-wai-4f-panxy .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-panxy .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-panright {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-panright .path1, #hgs-wai-4f-panright .path2, #hgs-wai-4f-panright .path3, #hgs-wai-4f-panright .path4, #hgs-wai-4f-panright .path6, #hgs-wai-4f-panright .path7, #hgs-wai-4f-panright .path8, #hgs-wai-4f-panright .path9, #hgs-wai-4f-panright .path10, #hgs-wai-4f-panright .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-panright .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-panleft {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-panleft .path1, #hgs-wai-4f-panleft .path2, #hgs-wai-4f-panleft .path3, #hgs-wai-4f-panleft .path4, #hgs-wai-4f-panleft .path6, #hgs-wai-4f-panleft .path7, #hgs-wai-4f-panleft .path8, #hgs-wai-4f-panleft .path9, #hgs-wai-4f-panleft .path10, #hgs-wai-4f-panleft .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-panleft .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-4f-panx {
+	width: 0.60546875em;
+}
+#hgs-wai-4f-panx .path1, #hgs-wai-4f-panx .path2, #hgs-wai-4f-panx .path3, #hgs-wai-4f-panx .path4, #hgs-wai-4f-panx .path6, #hgs-wai-4f-panx .path7, #hgs-wai-4f-panx .path8, #hgs-wai-4f-panx .path9, #hgs-wai-4f-panx .path10, #hgs-wai-4f-panx .path11 {
+	fill: rgb(0, 0, 0);
+}
+#hgs-wai-4f-panx .path5 {
+	fill: rgb(255, 255, 255);
+}
+
+.hgs-wai-5f-panup {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-panup .path1, #hgs-wai-5f-panup .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-panup .path2, #hgs-wai-5f-panup .path4, #hgs-wai-5f-panup .path5, #hgs-wai-5f-panup .path6, #hgs-wai-5f-panup .path7, #hgs-wai-5f-panup .path8, #hgs-wai-5f-panup .path9, #hgs-wai-5f-panup .path10, #hgs-wai-5f-panup .path11, #hgs-wai-5f-panup .path12, #hgs-wai-5f-panup .path13, #hgs-wai-5f-panup .path14, #hgs-wai-5f-panup .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-pandown {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-pandown .path1, #hgs-wai-5f-pandown .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-pandown .path2, #hgs-wai-5f-pandown .path4, #hgs-wai-5f-pandown .path5, #hgs-wai-5f-pandown .path6, #hgs-wai-5f-pandown .path7, #hgs-wai-5f-pandown .path8, #hgs-wai-5f-pandown .path9, #hgs-wai-5f-pandown .path10, #hgs-wai-5f-pandown .path11, #hgs-wai-5f-pandown .path12, #hgs-wai-5f-pandown .path13, #hgs-wai-5f-pandown .path14, #hgs-wai-5f-pandown .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-pany {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-pany .path1, #hgs-wai-5f-pany .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-pany .path2, #hgs-wai-5f-pany .path4, #hgs-wai-5f-pany .path5, #hgs-wai-5f-pany .path6, #hgs-wai-5f-pany .path7, #hgs-wai-5f-pany .path8, #hgs-wai-5f-pany .path9, #hgs-wai-5f-pany .path10, #hgs-wai-5f-pany .path11, #hgs-wai-5f-pany .path12, #hgs-wai-5f-pany .path13, #hgs-wai-5f-pany .path14, #hgs-wai-5f-pany .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-panxy {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-panxy .path1, #hgs-wai-5f-panxy .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-panxy .path2, #hgs-wai-5f-panxy .path4, #hgs-wai-5f-panxy .path5, #hgs-wai-5f-panxy .path6, #hgs-wai-5f-panxy .path7, #hgs-wai-5f-panxy .path8, #hgs-wai-5f-panxy .path9, #hgs-wai-5f-panxy .path10, #hgs-wai-5f-panxy .path11, #hgs-wai-5f-panxy .path12, #hgs-wai-5f-panxy .path13, #hgs-wai-5f-panxy .path14, #hgs-wai-5f-panxy .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-panright {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-panright .path1, #hgs-wai-5f-panright .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-panright .path2, #hgs-wai-5f-panright .path4, #hgs-wai-5f-panright .path5, #hgs-wai-5f-panright .path6, #hgs-wai-5f-panright .path7, #hgs-wai-5f-panright .path8, #hgs-wai-5f-panright .path9, #hgs-wai-5f-panright .path10, #hgs-wai-5f-panright .path11, #hgs-wai-5f-panright .path12, #hgs-wai-5f-panright .path13, #hgs-wai-5f-panright .path14, #hgs-wai-5f-panright .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-panleft {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-panleft .path1, #hgs-wai-5f-panleft .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-panleft .path2, #hgs-wai-5f-panleft .path4, #hgs-wai-5f-panleft .path5, #hgs-wai-5f-panleft .path6, #hgs-wai-5f-panleft .path7, #hgs-wai-5f-panleft .path8, #hgs-wai-5f-panleft .path9, #hgs-wai-5f-panleft .path10, #hgs-wai-5f-panleft .path11, #hgs-wai-5f-panleft .path12, #hgs-wai-5f-panleft .path13, #hgs-wai-5f-panleft .path14, #hgs-wai-5f-panleft .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-wai-5f-panx {
+	width: 0.7626953125em;
+}
+#hgs-wai-5f-panx .path1, #hgs-wai-5f-panx .path3 {
+	fill: rgb(255, 255, 255);
+}
+#hgs-wai-5f-panx .path2, #hgs-wai-5f-panx .path4, #hgs-wai-5f-panx .path5, #hgs-wai-5f-panx .path6, #hgs-wai-5f-panx .path7, #hgs-wai-5f-panx .path8, #hgs-wai-5f-panx .path9, #hgs-wai-5f-panx .path10, #hgs-wai-5f-panx .path11, #hgs-wai-5f-panx .path12, #hgs-wai-5f-panx .path13, #hgs-wai-5f-panx .path14, #hgs-wai-5f-panx .path15 {
+	fill: rgb(0, 0, 0);
+}
+
+.hgs-bai-tap {
+	width: 0.52734375em;
+}
+
+.hgs-bai-panup {
+	width: 0.513671875em;
+}
+
+.hgs-bai-pandown {
+	width: 0.513671875em;
+}
+
+.hgs-bai-pany {
+	width: 0.513671875em;
+}
+
+.hgs-bai-panxy {
+	width: 0.513671875em;
+}
+
+.hgs-bai-panright {
+	width: 0.513671875em;
+}
+
+.hgs-bai-panleft {
+	width: 0.513671875em;
+}
+
+.hgs-bai-panx {
+	width: 0.513671875em;
+}
+
+.hgs-bai-doubletap {
+	width: 0.513671875em;
+}
+
+.hgs-bai-longpress {
+	width: 0.513671875em;
+}
+
+.hgs-bai-pinchin {
+	width: 0.703125em;
+}
+
+.hgs-bai-pinchout {
+	width: 0.703125em;
+}
+
+.hgs-bai-rotate {
+	width: 0.703125em;
+}
+
+.hgs-bai-2f-panup {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-pandown {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-pany {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-panxy {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-panright {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-panleft {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-panx {
+	width: 0.5em;
+}
+
+.hgs-bai-2f-tap {
+	width: 0.513671875em;
+}
+
+.hgs-bai-2f-doubletap {
+	width: 0.5263671875em;
+}
+
+.hgs-bai-3f-panup {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-pandown {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-pany {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-panxy {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-panright {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-panleft {
+	width: 0.5em;
+}
+
+.hgs-bai-3f-panx {
+	width: 0.5em;
+}
+
+.hgs-bai-4f-panup {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-pandown {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-pany {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-panxy {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-panright {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-panleft {
+	width: 0.60546875em;
+}
+
+.hgs-bai-4f-panx {
+	width: 0.60546875em;
+}
+
+.hgs-bai-5f-panup {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-pandown {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-pany {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-panxy {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-panright {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-panleft {
+	width: 0.7890625em;
+}
+
+.hgs-bai-5f-panx {
+	width: 0.7890625em;
+}
